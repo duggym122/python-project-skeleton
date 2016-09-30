@@ -12,7 +12,8 @@ config = {
     'install_requires': ['nose','coveralls','coverage~=4.2'], # Add additional requirements here AND in requirements.txt
     'packages': ['NAME'], # Add package names here
     'scripts': [],
-    'name': 'python-project-skeleton' # Add project name here
+    'name' : 'python-project-skeleton', # Add project name here
+    'license' : 'AGPL-3.0'
 }
 
 setup(**config)
